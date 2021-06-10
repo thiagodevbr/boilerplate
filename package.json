@@ -9,11 +9,10 @@
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install"
   },
-
   "lint-staged": {
-    "src/**/*": [
-      "yarn-lint --fix"
-    ]
+    "*.js": "eslint --cache --fix",
+    "*.tsx": "eslint --cache --fix",
+    "*.ts": "eslint --cache --fix"
   },
   "dependencies": {
     "next": "10.2.3",
