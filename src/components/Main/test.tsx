@@ -10,6 +10,20 @@ describe('<Main/>', () => {
       screen.getByRole('heading', { name: /react avançado/i })
     ).toBeInTheDocument()
 
+    expect(
+      screen.getByRole('heading', {
+        name: /Typescript, ReactJs, NextJS, Styled Components/i
+      })
+    ).toBeInTheDocument()
+
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should render colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({
+      background: '#06092b'
+    })
   })
 })

@@ -1,7 +1,98 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main/> should render the heading 1`] = `
-<h1>
-  React avançado
-</h1>
+.c0 {
+  background: #06092b;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.c2 {
+  max-width: 10rem;
+  height: auto;
+}
+
+.c3 {
+  font-size: 2.5rem;
+}
+
+.c4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.c5 {
+  max-width: min(30rem,100%);
+}
+
+@media (max-width:400px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Imagem de um átomo e React avançado escrito ao lado"
+      class="c2"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+    />
+    <h1
+      class="c3"
+    >
+      React avançado
+    </h1>
+  </div>
+  <h2
+    class="c4"
+  >
+    Typescript, ReactJs, NextJS, Styled Components
+  </h2>
+  <img
+    alt="Uma pessoa sentada em frente ao computador"
+    class="c5"
+    src="https://image.freepik.com/vetores-gratis/ilustracao-colorida-de-programador-trabalhando_23-2148281410.jpg"
+  />
+</main>
 `
