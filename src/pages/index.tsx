@@ -1,5 +1,5 @@
+import { Main } from 'components/Main'
+
 export default function Home() {
-  const bla = 'Teste'
-  console.log(bla)
-  return <h1>Teste</h1>
+  return <Main />
 }
