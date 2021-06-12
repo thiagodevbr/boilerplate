@@ -18,12 +18,12 @@
       "yarn lint --fix",
       "yarn test --findRelatedTests --bail"
     ],
-    "*.js": "eslint --cache --fix",
     "*.tsx": "eslint --cache --fix",
     "*.ts": "eslint --cache --fix"
   },
   "dependencies": {
     "next": "10.2.3",
+    "next-pwa": "^5.2.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.0"

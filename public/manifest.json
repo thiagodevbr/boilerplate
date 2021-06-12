@@ -1,0 +1,10 @@
+{
+  "name": "Boilerplate",
+  "short_name": "Boilerplate",
+  "theme_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}
